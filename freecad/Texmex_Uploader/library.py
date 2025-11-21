@@ -53,10 +53,9 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
             secure=False
         )
 
-        self.current_prefix = ""    # ej: laminadora/bujes
-        self.current_key = None     # archivo seleccionado
-
-        self.loaded_prefixes = set()  # evitar duplicar subcarpetas
+        self.current_prefix = ""
+        self.current_key = None
+        self.loaded_prefixes = set()
 
         self._build_ui()
         self._load_root_areas()
@@ -69,11 +68,25 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
         main = QtWidgets.QVBoxLayout(self)
         main.setContentsMargins(4, 4, 4, 4)
 
+        # Titulo
         title = QtWidgets.QLabel("<b>Librería de Modelos Texmex</b>")
         title.setAlignment(QtCore.Qt.AlignCenter)
         main.addWidget(title)
 
-        # path
+        # FallBack Refresh Button (in-widget)
+        top_bar = QtWidgets.QHBoxLayout()
+        top_bar.addStretch(1)
+
+        self.btn_refresh = QtWidgets.QToolButton()
+        icon_sync = QtGui.QIcon(os.path.join(os.path.dirname(__file__), "Resources/Icons/sync.svg"))
+        self.btn_refresh.setIcon(icon_sync)
+        self.btn_refresh.setToolTip("Refrescar áreas y archivos")
+        self.btn_refresh.clicked.connect(self._load_root_areas)
+
+        top_bar.addWidget(self.btn_refresh)
+        main.addLayout(top_bar)
+
+        # Ruta
         self.path_label = QtWidgets.QLabel("Ruta: /")
         self.path_label.setStyleSheet("color: gray;")
         main.addWidget(self.path_label)
@@ -96,7 +109,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
         splitter.addWidget(left)
 
         # ------------------------------------------------------
-        # Panel derecho (archivos + preview)
+        # Panel derecho
         # ------------------------------------------------------
         right = QtWidgets.QWidget()
         rl = QtWidgets.QVBoxLayout(right)
@@ -143,7 +156,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
 
     # ============================================================
-    # CARGAR ÁREAS (primer nivel)
+    # CARGAR ÁREAS
     # ============================================================
     def _load_root_areas(self):
 
@@ -169,7 +182,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
 
     # ============================================================
-    # CARGAR SUBCARPETAS
+    # SUBCARPETAS
     # ============================================================
     def _ensure_children_loaded(self, item):
 
@@ -196,15 +209,12 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
         self.loaded_prefixes.add(prefix)
         item.setData(0, QtCore.Qt.UserRole + 1, True)
 
-    # --------------------------------------------------------
-    # Evento: item expanded
-    # --------------------------------------------------------
+
     def _on_item_expanded(self, item):
         try:
             self._ensure_children_loaded(item)
         except Exception as e:
             FreeCAD.Console.PrintError(f"Error expandiendo carpeta: {e}\n")
-
 
 
     # ============================================================
@@ -224,7 +234,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
 
     # ============================================================
-    # CARGAR ARCHIVOS DE UNA CARPETA
+    # ARCHIVOS EN CARPETA
     # ============================================================
     def _load_files_for_prefix(self, prefix):
 
@@ -246,11 +256,9 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
                 name_part = key[len(base):]
 
-                # si es subcarpeta → ignorar
                 if "/" in name_part:
                     continue
 
-                # solo FCStd
                 if not name_part.lower().endswith(".fcstd"):
                     continue
 
@@ -348,7 +356,6 @@ class OpenTexmexLibraryCmd:
 
         mw = FreeCADGui.getMainWindow()
 
-        # si ya existe dock
         existing = mw.findChild(QtWidgets.QDockWidget, DOCK_OBJECT_NAME)
         if existing:
             existing.show()
@@ -361,6 +368,32 @@ class OpenTexmexLibraryCmd:
 
         widget = TexmexModelLibraryWidget(dock)
         dock.setWidget(widget)
+
+        # ----------------------------------------------------------
+        # CUSTOM TITLE BAR WITH REFRESH BUTTON
+        # ----------------------------------------------------------
+        try:
+            tb = QtWidgets.QWidget()
+            tbl = QtWidgets.QHBoxLayout(tb)
+            tbl.setContentsMargins(5, 2, 5, 2)
+
+            lbl = QtWidgets.QLabel("Librería de Modelos Texmex")
+            lbl.setStyleSheet("font-weight:bold;")
+
+            refresh_btn = QtWidgets.QToolButton()
+            icon_sync = QtGui.QIcon(os.path.join(os.path.dirname(__file__), "Resources/Icons/sync.svg"))
+            refresh_btn.setIcon(icon_sync)
+            refresh_btn.setToolTip("Refrescar librería")
+            refresh_btn.clicked.connect(widget._load_root_areas)
+
+            tbl.addWidget(lbl, 1)
+            tbl.addWidget(refresh_btn, 0)
+            tb.setLayout(tbl)
+
+            dock.setTitleBarWidget(tb)
+
+        except Exception as e:
+            FreeCAD.Console.PrintError(f"No se pudo customizar title bar: {e}\n")
 
         mw.addDockWidget(QtCore.Qt.RightDockWidgetArea, dock)
         dock.resize(500, 600)
