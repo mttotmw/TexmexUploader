@@ -1,0 +1,16 @@
+[project]
+authors = ["Jorge Guadalupe Ventura Lopez <mantenimiento@tmw.mx>"]
+channels = ["freecad/label/dev", "conda-forge"]
+description = "S3 ccloud Tools"
+name = "freecad.Texmex_Uploader"
+platforms = ["osx-arm64", "linux-aarch64", "linux-64", "win-64", "osx-64"]
+version = "0.1.0"
+
+[pypi-dependencies]
+freecad_Texmex_Uploader = { path = ".", editable = true }
+
+[tasks]
+test = "python tests/tests.py"
+
+[dependencies]
+freecad = ">=1.0.0,<2"

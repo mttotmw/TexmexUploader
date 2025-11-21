@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+
+  <name>TexmexUploader</name>
+  <version>1.0.0</version>
+  <date>2025-01-01</date>
+
+  <description>
+    Workbench corporativo de Texmex Weavers diseñado para integrar FreeCAD 
+    con las herramientas internas del área de Mantenimiento.
+    Permite subir modelos 3D, planos TechDraw SVG, gestionar atributos automáticos
+    y acceder a la librería CAD corporativa alojada en MinIO.
+  </description>
+
+  <maintainer email="mantenimiento@tmw.mx">Ing. Jorge Guadalupe Ventura Lopez</maintainer>
+
+  <license file="LICENSE">MIT</license>
+
+  <url type="repository" branch="master">https://github.com/mttotmw/TexmexUploader</url>
+  <url type="readme">https://github.com/mttotmw/TexmexUploader/blob/master/README.md</url>
+  <url type="documentation">https://github.com/mttotmw/TexmexUploader</url>
+
+  <icon>freecad/Texmex_Uploader/resources/icons/boxlogo.svg</icon>
+
+  <content>
+    <workbench>
+      <classname>TexmexUploaderWorkbench</classname>
+      <subdirectory>./</subdirectory>
+      <tag>texmex</tag>
+      <tag>s3</tag>
+      <tag>maintenance</tag>
+    </workbench>
+  </content>
+
+  <dependencies>
+    <dependency>minio</dependency>
+  </dependencies>
+
+</package>
