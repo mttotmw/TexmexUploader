@@ -53,8 +53,8 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
             secure=False
         )
 
-        self.current_prefix = ""
-        self.current_key = None
+        self.current_prefix = ""    
+        self.current_key = None     
         self.loaded_prefixes = set()
 
         self._build_ui()
@@ -68,25 +68,28 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
         main = QtWidgets.QVBoxLayout(self)
         main.setContentsMargins(4, 4, 4, 4)
 
-        # Titulo
-        title = QtWidgets.QLabel("<b>Librería de Modelos Texmex</b>")
-        title.setAlignment(QtCore.Qt.AlignCenter)
-        main.addWidget(title)
+        # ------------------------------------------------------
+        # Título + botón Refresh (sin reemplazar title bar)
+        # ------------------------------------------------------
+        top = QtWidgets.QHBoxLayout()
+        top.setContentsMargins(0, 0, 0, 0)
 
-        # FallBack Refresh Button (in-widget)
-        top_bar = QtWidgets.QHBoxLayout()
-        top_bar.addStretch(1)
+        title = QtWidgets.QLabel("<b>Librería de Modelos Texmex</b>")
+        title.setAlignment(QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
 
         self.btn_refresh = QtWidgets.QToolButton()
         icon_sync = QtGui.QIcon(os.path.join(os.path.dirname(__file__), "Resources/Icons/sync.svg"))
         self.btn_refresh.setIcon(icon_sync)
-        self.btn_refresh.setToolTip("Refrescar áreas y archivos")
+        self.btn_refresh.setToolTip("Refrescar librería")
         self.btn_refresh.clicked.connect(self._load_root_areas)
 
-        top_bar.addWidget(self.btn_refresh)
-        main.addLayout(top_bar)
+        top.addWidget(title)
+        top.addStretch()
+        top.addWidget(self.btn_refresh)
 
-        # Ruta
+        main.addLayout(top)
+
+        # Ruta actual
         self.path_label = QtWidgets.QLabel("Ruta: /")
         self.path_label.setStyleSheet("color: gray;")
         main.addWidget(self.path_label)
@@ -95,7 +98,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
         main.addWidget(splitter, 1)
 
         # ------------------------------------------------------
-        # Árbol
+        # Panel izquierdo (Árbol)
         # ------------------------------------------------------
         left = QtWidgets.QWidget()
         ll = QtWidgets.QVBoxLayout(left)
@@ -109,7 +112,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
         splitter.addWidget(left)
 
         # ------------------------------------------------------
-        # Panel derecho
+        # Panel derecho (archivos + preview)
         # ------------------------------------------------------
         right = QtWidgets.QWidget()
         rl = QtWidgets.QVBoxLayout(right)
@@ -127,7 +130,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
         self.preview_label.setFrameShape(QtWidgets.QFrame.StyledPanel)
         rl.addWidget(self.preview_label, 1)
 
-        # Botones
+        # Botones inferiores
         bar = QtWidgets.QHBoxLayout()
         self.btn_open_new = QtWidgets.QPushButton("Abrir")
         self.btn_import = QtWidgets.QPushButton("Importar")
@@ -144,7 +147,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
         splitter.setStretchFactor(1, 3)
 
         # ------------------------------------------------------
-        # SIGNALS
+        # Signals
         # ------------------------------------------------------
         self.tree.itemExpanded.connect(self._on_item_expanded)
         self.tree.currentItemChanged.connect(self._on_tree_selection_changed)
@@ -156,7 +159,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
 
     # ============================================================
-    # CARGAR ÁREAS
+    # Cargar áreas (primer nivel)
     # ============================================================
     def _load_root_areas(self):
 
@@ -182,7 +185,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
 
     # ============================================================
-    # SUBCARPETAS
+    # Cargar subcarpetas
     # ============================================================
     def _ensure_children_loaded(self, item):
 
@@ -218,7 +221,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
 
     # ============================================================
-    # SELECCIÓN DE CARPETA
+    # Selección de carpeta
     # ============================================================
     def _on_tree_selection_changed(self, current, previous):
         if not current:
@@ -234,7 +237,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
 
     # ============================================================
-    # ARCHIVOS EN CARPETA
+    # Cargar archivos de carpeta
     # ============================================================
     def _load_files_for_prefix(self, prefix):
 
@@ -253,7 +256,6 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
             )
             for obj in objects:
                 key = obj.object_name
-
                 name_part = key[len(base):]
 
                 if "/" in name_part:
@@ -272,7 +274,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
 
     # ============================================================
-    # SELECCIÓN DE ARCHIVO
+    # Selección de archivo
     # ============================================================
     def _on_file_selection_changed(self, current, previous):
 
@@ -301,7 +303,7 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
 
 
     # ============================================================
-    # BOTONES
+    # Botón: Abrir nuevo
     # ============================================================
     def _on_open_new_clicked(self):
         if not self.current_key:
@@ -309,12 +311,18 @@ class TexmexModelLibraryWidget(QtWidgets.QWidget):
             return
         open_model_as_new(BUCKET_MODEL, self.current_key)
 
+    # ============================================================
+    # Botón: Importar
+    # ============================================================
     def _on_import_clicked(self):
         if not self.current_key:
             show_popup("Atención", "Selecciona un archivo primero.")
             return
         import_model_into_current(BUCKET_MODEL, self.current_key)
 
+    # ============================================================
+    # Botón: Eliminar
+    # ============================================================
     def _on_delete_clicked(self):
         if not self.current_key:
             show_popup("Atención", "Selecciona un archivo primero.")
@@ -368,32 +376,6 @@ class OpenTexmexLibraryCmd:
 
         widget = TexmexModelLibraryWidget(dock)
         dock.setWidget(widget)
-
-        # ----------------------------------------------------------
-        # CUSTOM TITLE BAR WITH REFRESH BUTTON
-        # ----------------------------------------------------------
-        try:
-            tb = QtWidgets.QWidget()
-            tbl = QtWidgets.QHBoxLayout(tb)
-            tbl.setContentsMargins(5, 2, 5, 2)
-
-            lbl = QtWidgets.QLabel("Librería de Modelos Texmex")
-            lbl.setStyleSheet("font-weight:bold;")
-
-            refresh_btn = QtWidgets.QToolButton()
-            icon_sync = QtGui.QIcon(os.path.join(os.path.dirname(__file__), "Resources/Icons/sync.svg"))
-            refresh_btn.setIcon(icon_sync)
-            refresh_btn.setToolTip("Refrescar librería")
-            refresh_btn.clicked.connect(widget._load_root_areas)
-
-            tbl.addWidget(lbl, 1)
-            tbl.addWidget(refresh_btn, 0)
-            tb.setLayout(tbl)
-
-            dock.setTitleBarWidget(tb)
-
-        except Exception as e:
-            FreeCAD.Console.PrintError(f"No se pudo customizar title bar: {e}\n")
 
         mw.addDockWidget(QtCore.Qt.RightDockWidgetArea, dock)
         dock.resize(500, 600)
