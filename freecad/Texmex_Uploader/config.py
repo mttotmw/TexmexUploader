@@ -81,7 +81,7 @@ class CopyTemplatesCmd:
         return {
             "Pixmap": self.ICON_SVG,
             "MenuText": "Instalar Plantillas Texmex",
-            "ToolTip":  "Copia todas las plantillas SVG a TechDraw/Templates"
+            "ToolTip":  "Copia las plantillas SVG a la carpeta oficial de TechDraw"
         }
 
     def Activated(self):
@@ -89,32 +89,33 @@ class CopyTemplatesCmd:
             mod_path = os.path.dirname(os.path.abspath(__file__))
             src_folder = os.path.join(mod_path, "Resources", "templates")
 
-            # TechDraw folder
-            dest_folder = os.path.join(
-                FreeCAD.getUserAppDataDir(),
-                "Mod",
-                "TechDraw",
-                "Templates"
+            # === DESTINO REAL ===
+            techdraw_template_dir = os.path.join(
+                FreeCAD.getResourceDir(), "Mod", "TechDraw", "Templates"
             )
 
-            if not os.path.exists(dest_folder):
-                os.makedirs(dest_folder)
+            if not os.path.exists(techdraw_template_dir):
+                os.makedirs(techdraw_template_dir)
 
             copied = 0
+
             for file in os.listdir(src_folder):
                 if file.lower().endswith(".svg"):
                     src = os.path.join(src_folder, file)
-                    dest = os.path.join(dest_folder, file)
+                    dest = os.path.join(techdraw_template_dir, file)
+
+                    # usar QFile para permisos bloqueados en Program Files
                     QtCore.QFile.copy(src, dest)
                     copied += 1
 
             FreeCAD.Console.PrintMessage(
-                f"\n✔ Se copiaron {copied} plantillas a TechDraw/Templates.\n"
+                f"\n✔ Se copiaron {copied} plantillas a:\n{techdraw_template_dir}\n"
             )
+
             QtWidgets.QMessageBox.information(
                 None,
                 "Plantillas Instaladas",
-                f"Se copiaron {copied} plantillas Texmex a:\n{dest_folder}"
+                f"Se copiaron {copied} plantillas Texmex a:\n{techdraw_template_dir}"
             )
 
         except Exception as e:
