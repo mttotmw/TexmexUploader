@@ -55,6 +55,7 @@ class TexmexUploaderWorkbench(FreeCADGui.Workbench):
             FreeCADGui.addCommand("AddDocAttributes",     model.AddAttributesCMD())
             FreeCADGui.addCommand("UploadTechDrawSVG",    svg.UploadTechDrawSVGCmd())
             FreeCADGui.addCommand("ConfigMinIO",          config.ConfigMinIOCmd())
+            FreeCADGui.addCommand("CopyTemplates",        config.CopyTemplatesCmd())
             FreeCADGui.addCommand("AddPageAttributes",    svg.AddPageAttributesCMD())
             FreeCADGui.addCommand("OpenTexmexLibrary",    library.OpenTexmexLibraryCmd())
 
@@ -98,7 +99,7 @@ class TexmexUploaderWorkbench(FreeCADGui.Workbench):
 
             self.appendMenu(
                 ["Texmex Weavers", "Configuración"],
-                ["ConfigMinIO"]
+                ["ConfigMinIO", CopyTemplates]
             )
 
             FreeCAD.Console.PrintMessage(" Texmex Weavers CAD loaded.\n")

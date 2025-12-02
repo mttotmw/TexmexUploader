@@ -69,3 +69,60 @@ class ConfigMinIOCmd:
 
     def IsActive(self):
         return True
+    
+# ============================================================
+# COPY TEMPLATES COMMAND
+# ============================================================
+
+class CopyTemplatesCmd:
+    ICON_SVG = os.path.join(os.path.dirname(__file__), "Resources/Icons/boxlogo.svg")
+
+    def GetResources(self):
+        return {
+            "Pixmap": self.ICON_SVG,
+            "MenuText": "Instalar Plantillas Texmex",
+            "ToolTip":  "Copia todas las plantillas SVG a TechDraw/Templates"
+        }
+
+    def Activated(self):
+        try:
+            mod_path = os.path.dirname(os.path.abspath(__file__))
+            src_folder = os.path.join(mod_path, "Resources", "templates")
+
+            # TechDraw folder
+            dest_folder = os.path.join(
+                FreeCAD.getUserAppDataDir(),
+                "Mod",
+                "TechDraw",
+                "Templates"
+            )
+
+            if not os.path.exists(dest_folder):
+                os.makedirs(dest_folder)
+
+            copied = 0
+            for file in os.listdir(src_folder):
+                if file.lower().endswith(".svg"):
+                    src = os.path.join(src_folder, file)
+                    dest = os.path.join(dest_folder, file)
+                    QtCore.QFile.copy(src, dest)
+                    copied += 1
+
+            FreeCAD.Console.PrintMessage(
+                f"\n✔ Se copiaron {copied} plantillas a TechDraw/Templates.\n"
+            )
+            QtWidgets.QMessageBox.information(
+                None,
+                "Plantillas Instaladas",
+                f"Se copiaron {copied} plantillas Texmex a:\n{dest_folder}"
+            )
+
+        except Exception as e:
+            FreeCAD.Console.PrintError(f"\n❌ Error copiando plantillas: {e}\n")
+            QtWidgets.QMessageBox.critical(
+                None, "Error", f"No se pudieron copiar las plantillas:\n{e}"
+            )
+
+    def IsActive(self):
+        return True
+

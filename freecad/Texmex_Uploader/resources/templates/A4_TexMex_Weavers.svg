@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg2"
+   width="297mm"
+   height="210mm"
+   version="1.1"
+   viewBox="0 0 297 210"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace">
+  <defs
+     id="defs1" />
+  <!-- Working space 10 10 287 200 -->
+  <!-- Title block 147 153 287 200 -->
+  <metadata
+     id="metadata849">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path6"
+     d="M 9.8207,197.90323 H 286.96244"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path8"
+     d="M 286.9651,198.01639 V 7.5932275"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path10"
+     d="M 287.0251,7.7576275 H 9.9651"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path12"
+     d="M 9.9701,7.6081275 V 197.75813"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path16"
+     d="m 148.60378,198.18481 v 7.19379"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.303576" />
+  <path
+     id="path18"
+     d="M 9.9941,102.73323 H 0"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path20"
+     d="m 286.9951,102.72323 h 9.6618"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path22"
+     d="m 240.8351,198.23797 v 7.21676"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path24"
+     d="m 56.1671,197.90323 v 7.5"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path26"
+     d="m 194.63221,197.90902 v 7.54571"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path28"
+     d="m 102.3351,197.90323 v 7.5"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path42"
+     d="m 9.8251,55.228228 h -7.5"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path44"
+     d="m 9.8251,150.22323 h -7.5"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path46"
+     d="m 287.0051,55.228228 h 7.5"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path48"
+     d="m 287.0051,150.22323 h 7.5"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path504"
+     d="m 5.5589,80.352227 h 0.0353 l 0.48415,-0.081 0.36311,-0.237 0.23199,-0.373 0.08574,-0.494 -0.08574,-0.525 -0.2219,-0.393 -0.35302,-0.252 -0.4539,-0.091 -0.29755,0.04 -0.24207,0.111 -0.1866,0.182 -0.13617,0.242 -0.27233,-0.328 -0.43372,-0.116 -0.39337,0.076 -0.29755,0.217 -0.1866,0.353 -0.06556,0.484 0.08069,0.454 0.2219,0.348 0.35303,0.227 0.46902,0.075 h 0.0353 v -0.449 l -0.32277,-0.04 -0.23199,-0.131 -0.14121,-0.212 -0.05043,-0.297 0.04035,-0.263 0.10591,-0.191 0.17147,-0.116 0.23198,-0.046 0.24712,0.046 0.16643,0.121 0.10086,0.211 0.03026,0.288 -0.00504,0.197 H 5.0344 l -0.01008,-0.247 0.04539,-0.318 0.12103,-0.237 0.19669,-0.141 0.2572,-0.051 0.29251,0.056 0.21686,0.146 0.13617,0.232 0.04539,0.307 -0.05044,0.318 -0.15129,0.232 -0.24208,0.146 -0.33285,0.056 z"
+     fill="#000000"
+     fill-rule="evenodd"
+     stroke="none"
+     style="stroke-width:0.13" />
+  <path
+     id="path508"
+     d="m 6.6583,127.85223 v -2.406 H 6.22459 v 1.901 l -0.23704,-0.106 -0.19668,-0.181 -0.35807,-0.56 -0.1513,-0.298 -0.21686,-0.332 -0.25216,-0.237 -0.29755,-0.137 -0.3379,-0.05 -0.42363,0.086 -0.33285,0.237 -0.21182,0.363 -0.07565,0.469 0.08574,0.484 0.23703,0.368 0.37824,0.237 0.49928,0.081 h 0.07061 v -0.459 H 4.36363 l -0.34294,-0.045 -0.25216,-0.137 -0.16138,-0.216 -0.05548,-0.288 0.05043,-0.292 0.12608,-0.217 0.19669,-0.142 0.24712,-0.05 0.23199,0.035 0.19668,0.096 0.17147,0.162 0.1513,0.221 0.16138,0.298 0.31268,0.494 0.33286,0.348 0.40346,0.207 0.50936,0.066 z"
+     fill="#000000"
+     fill-rule="evenodd"
+     stroke="none"
+     style="stroke-width:0.13" />
+  <path
+     id="path512"
+     d="m 289.8251,79.149228 v 0.035 l 0.081,0.484 0.237,0.363 0.373,0.232 0.494,0.086 0.525,-0.086 0.393,-0.222 0.252,-0.353 0.091,-0.454 -0.04,-0.297 -0.111,-0.242 -0.182,-0.187 -0.242,-0.136 0.328,-0.272 0.116,-0.434 -0.076,-0.393 -0.217,-0.298 -0.353,-0.186 -0.484,-0.066 -0.454,0.081 -0.348,0.222 -0.227,0.353 -0.075,0.469 v 0.035 h 0.449 l 0.04,-0.323 0.131,-0.232 0.212,-0.141 0.297,-0.05 0.263,0.04 0.191,0.106 0.116,0.171 0.046,0.232 -0.046,0.247 -0.121,0.167 -0.211,0.101 -0.288,0.03 -0.197,-0.005 v 0.398 l 0.247,-0.01 0.318,0.046 0.237,0.121 0.141,0.196 0.051,0.257 -0.056,0.293 -0.146,0.217 -0.232,0.136 -0.307,0.045 -0.318,-0.05 -0.232,-0.151 -0.146,-0.242 -0.056,-0.333 z"
+     fill="#000000"
+     fill-rule="evenodd"
+     stroke="none"
+     style="stroke-width:0.13" />
+  <path
+     id="path516"
+     d="m 289.8251,127.85023 h 2.406 v -0.434 h -1.901 l 0.106,-0.237 0.181,-0.196 0.56,-0.358 0.298,-0.152 0.332,-0.216 0.237,-0.253 0.137,-0.297 0.05,-0.338 -0.086,-0.424 -0.237,-0.333 -0.363,-0.211 -0.469,-0.076 -0.484,0.086 -0.368,0.237 -0.237,0.378 -0.081,0.499 v 0.071 h 0.459 v -0.04 l 0.045,-0.343 0.137,-0.253 0.217,-0.161 0.287,-0.055 0.292,0.05 0.217,0.126 0.142,0.197 0.05,0.247 -0.035,0.232 -0.096,0.197 -0.162,0.171 -0.221,0.151 -0.298,0.162 -0.494,0.312 -0.348,0.333 -0.207,0.404 -0.066,0.509 z"
+     fill="#000000"
+     fill-rule="evenodd"
+     stroke="none"
+     style="stroke-width:0.13" />
+  <path
+     id="path520"
+     d="M 6.6583,31.315428 V 30.861527 H 5.79087 V 30.362328 H 5.38741 v 0.4992 h -2.1535 v 0.459 l 2.1131,1.5331 h 0.44381 v -1.5382 H 6.65825 Z M 5.3874,32.430027 3.819,31.315428 h 1.5684 z"
+     fill="#000000"
+     fill-rule="evenodd"
+     stroke="none"
+     style="stroke-width:0.13" />
+  <path
+     id="path524"
+     d="m 6.6583,173.97323 v -0.459 H 3.1331 v 0.343 l 0.30764,0.091 0.20677,0.181 0.12104,0.278 0.04034,0.383 h 0.35807 v -0.817 h 2.4914 z"
+     fill="#000000"
+     fill-rule="evenodd"
+     stroke="none"
+     style="stroke-width:0.13" />
+  <path
+     id="path528"
+     d="m 291.3651,32.853028 h 0.454 v -0.867401 h 0.5 v -0.4035 h -0.5 v -2.1534 h -0.459 l -1.533,2.113101 v 0.4438 h 1.538 z m -1.114,-1.2709 1.114,-1.5684 v 1.5684 z"
+     fill="#000000"
+     fill-rule="evenodd"
+     stroke="none"
+     style="stroke-width:0.13" />
+  <path
+     id="path532"
+     d="m 290.6451,175.35023 h 0.459 v -3.525 h -0.343 l -0.091,0.308 -0.181,0.206 -0.277,0.121 -0.384,0.041 v 0.358 h 0.817 z"
+     fill="#000000"
+     fill-rule="evenodd"
+     stroke="none"
+     style="stroke-width:0.13" />
+  <!-- DrawingContent -->
+  <path
+     id="path92"
+     d="M 144.35101,198.03015 H 287.11592"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.353326" />
+  <path
+     id="path94"
+     d="M 144.40101,198.07015 V 150.05433"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.354934" />
+  <path
+     id="path96"
+     d="M 144.35101,150.23448 H 287.04614"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.353239" />
+  <path
+     id="path100"
+     d="M 144.35101,194.03015 H 286.98348"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.383068" />
+  <path
+     id="path102"
+     d="M 144.35101,175.12704 H 286.97364"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.383055" />
+  <path
+     id="path104"
+     d="M 144.35101,165.65031 H 286.8914"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.382945" />
+  <path
+     id="path124"
+     d="M 178.37506,175.37555 V 165.7274"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.213208" />
+  <path
+     id="path130"
+     d="M 263.40101,194.04615 V 150.15927"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.339197" />
+  <text
+     xml:space="preserve"
+     style="font-size:2.96439px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0289027"
+     x="146.33141"
+     y="153.0719"
+     id="text1"
+     transform="scale(0.98967962,1.010428)"><tspan
+       id="tspan1"
+       style="font-size:2.96439px;fill:#1a1a1a;stroke-width:0.0289027"
+       x="146.33141"
+       y="153.0719">Autor :</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.96439px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0289027"
+     x="266.74142"
+     y="153.10155"
+     id="text1-5"
+     transform="scale(0.98967962,1.010428)"><tspan
+       id="tspan1-5"
+       style="font-size:2.96439px;fill:#1a1a1a;stroke-width:0.0289027"
+       x="266.74142"
+       y="153.10155">Revision :</tspan></text>
+  <text
+     id="text4183"
+     x="145.43652"
+     y="196.80669"
+     fill="#000000"
+     font-family="Arial"
+     style="line-height:0%"
+     freecad:editable="copyright"><tspan
+       id="tspan4185"
+       x="145.43652"
+       y="196.80669"
+       font-size="2.5px"
+       style="line-height:1.25">This drawing is property of Texmex Weavers; it can't be reproduced or shared without our written consent.</tspan></text>
+  <text
+     id="text4415"
+     x="264.41818"
+     y="164.01961"
+     fill="#000000"
+     font-family="Arial"
+     style="line-height:0%"><tspan
+       id="tspan4417"
+       x="264.41818"
+       y="164.01961"
+       font-size="7.9022px"
+       style="line-height:1.25">A4</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="220.22575"
+     y="153.19626"
+     id="text2"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan2"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="220.22575"
+       y="153.19626">Fecha :</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="180.70416"
+     y="167.35246"
+     id="text39"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan39"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="180.70416"
+       y="167.35246">Nombre :</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="194.65068"
+     y="167.56279"
+     id="text39-9"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan39-2"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="194.65068"
+       y="167.56279">Ing. Jorge Guadalupe Ventura Lopez</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="146.8463"
+     y="178.8007"
+     id="text39-9-3"
+     transform="scale(0.99080376,1.0092816)"
+     freecad:editable="Notas y Comentarios1"
+     freecad:autofill="Comment"><tspan
+       id="tspan39-2-4"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="146.8463"
+       y="178.8007">Notas y Comentarios.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="146.8463"
+     y="181.82555"
+     id="text39-9-3-9"
+     transform="scale(0.99080376,1.0092816)"
+     freecad:editable="Notas y Comentarios2"
+     freecad:autofill="Comment2"><tspan
+       id="tspan39-2-4-4"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="146.8463"
+       y="181.82555">Notas y Comentarios.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="146.8463"
+     y="184.85037"
+     id="text39-9-3-9-4"
+     transform="scale(0.99080376,1.0092816)"
+     freecad:editable="Notas y Comentarios3"
+     freecad:autofill="Comment3"><tspan
+       id="tspan39-2-4-4-5"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="146.8463"
+       y="184.85037">Notas y Comentarios.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="146.8463"
+     y="187.87521"
+     id="text39-9-3-9-1"
+     transform="scale(0.99080376,1.0092816)"
+     freecad:editable="Notas y Comentarios4"
+     freecad:autofill="Comment4"><tspan
+       id="tspan39-2-4-4-1"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="146.8463"
+       y="187.87521">Notas y Comentarios.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="146.8463"
+     y="190.90005"
+     id="text39-9-3-9-6"
+     transform="scale(0.99080376,1.0092816)"
+     freecad:editable="Notas y Comentarios5"
+     freecad:autofill="Comment5"><tspan
+       id="tspan39-2-4-4-14"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="146.8463"
+       y="190.90005">Notas y Comentarios.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="194.61519"
+     y="171.8208"
+     id="text39-9-4"
+     transform="scale(0.99080376,1.0092816)"
+     freecad:editable="Ing. Raúl López Saldaña"><tspan
+       id="tspan39-2-3"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="194.61519"
+       y="171.8208">Ing. Raúl López Saldaña</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="180.79999"
+     y="171.76202"
+     id="text39-5"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan39-7"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="180.79999"
+       y="171.76202">Nombre :</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="146.52341"
+     y="176.26556"
+     id="text40"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan40"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="146.52341"
+       y="176.26556">Comments :</tspan></text>
+  <text
+     id="text7"
+     x="29.878864"
+     y="205.00677"
+     fill="#000000"
+     font-family="Arial"
+     style="font-size:4.93889px;line-height:0%"><tspan
+       id="tspan7"
+       x="29.878864"
+       y="205.00677"
+       font-size="7.9022px"
+       style="font-size:4.93889px;line-height:1.25">A</tspan></text>
+  <text
+     id="text8"
+     x="76.58979"
+     y="205.00677"
+     fill="#000000"
+     font-family="Arial"
+     style="font-size:4.93889px;line-height:0%"><tspan
+       id="tspan8"
+       x="76.58979"
+       y="205.00677"
+       font-size="7.9022px"
+       style="font-size:4.93889px;line-height:1.25">B</tspan></text>
+  <text
+     id="text9"
+     x="123.14639"
+     y="205.00677"
+     fill="#000000"
+     font-family="Arial"
+     style="font-size:4.93889px;line-height:0%"><tspan
+       id="tspan9"
+       x="123.14639"
+       y="205.00677"
+       font-size="7.9022px"
+       style="font-size:4.93889px;line-height:1.25">C</tspan></text>
+  <text
+     id="text10"
+     x="169.9079"
+     y="205.00677"
+     fill="#000000"
+     font-family="Arial"
+     style="font-size:4.93889px;line-height:0%"><tspan
+       id="tspan10"
+       x="169.9079"
+       y="205.00677"
+       font-size="7.9022px"
+       style="font-size:4.93889px;line-height:1.25">D</tspan></text>
+  <text
+     id="text11"
+     x="216.59229"
+     y="205.00677"
+     fill="#000000"
+     font-family="Arial"
+     style="font-size:4.93889px;line-height:0%"><tspan
+       id="tspan11"
+       x="216.59229"
+       y="205.00677"
+       font-size="7.9022px"
+       style="font-size:4.93889px;line-height:1.25">E</tspan></text>
+  <text
+     id="text12"
+     x="262.98743"
+     y="205.00677"
+     fill="#000000"
+     font-family="Arial"
+     style="font-size:4.93889px;line-height:0%"><tspan
+       id="tspan12"
+       x="262.98743"
+       y="205.00677"
+       font-size="7.9022px"
+       style="font-size:4.93889px;line-height:1.25">F</tspan></text>
+  <path
+     id="path13"
+     d="M 144.67995,156.70009 H 286.95188"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.382584" />
+  <text
+     id="text3266"
+     x="156.81369"
+     y="154.63751"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:autofill="author"
+     freecad:editable="Designed_by_Name"><tspan
+       id="tspan3268"
+       x="156.81369"
+       y="154.63751"
+       font-size="3.95px"
+       style="line-height:1.25">Nombre del Autor</tspan></text>
+  <text
+     id="text3270"
+     x="230.61145"
+     y="155.03482"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:autofill="date"
+     freecad:editable="FC-Date"><tspan
+       id="tspan3272"
+       x="230.61145"
+       y="155.03482"
+       font-size="3.95px"
+       style="line-height:1.25">Fecha</tspan></text>
+  <text
+     id="text3274"
+     x="274.59778"
+     y="181.87685"
+     text-align="center"
+     text-anchor="middle"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:autofill="scale"
+     freecad:editable="FC-SC"
+     ><tspan
+       id="tspan3276"
+       x="274.59778"
+       y="181.87685"
+       font-size="3.95px"
+       style="line-height:1.25">Escala</tspan></text>
+  <text
+     id="text3278"
+     x="274.68848"
+     y="172.4857"
+     text-align="center"
+     text-anchor="middle"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:editable="Material"><tspan
+       id="tspan3280"
+       x="274.68848"
+       y="172.4857"
+       font-size="3.95px"
+       style="line-height:1.25">Material</tspan></text>
+  <text
+     id="text3282"
+     x="102.4091"
+     y="15.187663"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:autofill="title"
+     freecad:editable="FC-Title"><tspan
+       id="tspan3284"
+       x="102.4091"
+       y="15.187663"
+       font-size="5.6444px"
+       style="line-height:1.25">Titulo</tspan></text>
+  <text
+     id="text3286"
+     x="146.2832"
+     y="163.76672"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:editable="Maquina de Uso"><tspan
+       id="tspan3288"
+       x="146.2832"
+       y="163.76672"
+       font-size="3.9511px"
+       style="line-height:1.25">Maquina de Uso</tspan></text>
+  <text
+     id="text3290"
+     x="225.24612"
+     y="163.96327"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:editable="Drawing_number"
+     freecad:autofill="Id"><tspan
+       id="tspan3292"
+       x="225.24612"
+       y="163.96327"
+       font-size="3.9511px"
+       style="line-height:1.25">Numero De Dibujo</tspan></text>
+  <text
+     id="text3294"
+     x="268.80484"
+     y="191.32043"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+	 freecad:autofill="sheet"
+     freecad:editable="FC-SH"
+     ><tspan
+       id="tspan3296"
+       x="268.80484"
+       y="191.32043"
+       font-size="3.9511px"
+       style="line-height:1.25">Sheet</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:2.57214px;line-height:1.25;font-family:sans-serif;fill:#0304aa;fill-opacity:1;stroke:#0304aa;stroke-width:0.198719;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     x="22.926672"
+     y="13.332809"
+     id="text2233"
+     transform="scale(1.0617674,0.94182585)"><tspan
+       id="tspan2231"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.57214px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0304aa;fill-opacity:1;stroke:#0304aa;stroke-width:0.198719;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="22.926672"
+       y="13.332809">TEXMEX</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64759px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0304aa;fill-opacity:1;stroke:#0304aa;stroke-width:0.198719;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     x="37.478199"
+     y="12.122519"
+     id="text2621"
+     transform="scale(0.96021065,1.0414381)"><tspan
+       id="tspan2619"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64759px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0304aa;fill-opacity:1;stroke:#0304aa;stroke-width:0.198719;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="37.478199"
+       y="12.122519">weavers</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.94403px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.108302;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     x="21.322086"
+     y="15.737186"
+     id="text81622"
+     transform="scale(1.003285,0.99672572)"><tspan
+       id="tspan81620"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.94403px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#000000;stroke-width:0.108302;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="21.322086"
+       y="15.737186"><tspan
+   style="fill:#0304aa;fill-opacity:1;stroke:#0304aa;stroke-width:0.108302;stroke-opacity:1"
+   id="tspan92047">W</tspan>eaving <tspan
+   style="fill:#0304aa;fill-opacity:1;stroke:#0304aa;stroke-width:0.108302;stroke-opacity:1"
+   id="tspan92825">Q</tspan>uality and <tspan
+   style="fill:#0304aa;fill-opacity:1;stroke:#0304aa;stroke-width:0.108302;stroke-opacity:1"
+   id="tspan94853">S</tspan>ervice</tspan></text>
+  <path
+     style="fill:#0304aa;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 15.592979,17.131033 1.224123,0.09899 v -4.539239 l -0.761518,-0.473722 0.370083,0.636342 v 1.230261 l -0.512423,0.381806 0.476838,0.636342 v 1.428233 z"
+     id="path9497" />
+  <path
+     style="fill:#0304aa;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 17.096656,12.676244 v 4.629606 l 2.943998,-1.444876 0.533443,-0.729939 v -1.259892 l -0.573702,-0.369968 0.543507,-0.739937 V 11.541341 L 20.01046,11.241369 Z"
+     id="path10675" />
+  <path
+     style="fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 18.153476,15.655991 1.248054,-0.599949 v -0.659943 l -1.237989,0.594947 z"
+     id="path10677" />
+  <path
+     style="fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 18.153476,13.83181 1.248054,-0.599948 v -0.659944 l -1.237989,0.594949 z"
+     id="path111772" />
+  <path
+     style="fill:#151515;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 15.194427,12.407961 0.526658,0.714117 v 1.110064 l 0.548008,-0.311102 v -0.996935 l -0.604944,-0.820173 z"
+     id="path8062" />
+  <path
+     style="fill:#151515;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 12.059148,11.031385 0.01006,4.509616 2.999356,1.479872 0.462988,-0.269976 v -1.109906 l -0.53847,-0.739937 V 14.73107 l 0.498215,-0.359971 V 13.1912 l -0.462988,-0.639945 z"
+     id="path9499" />
+  <path
+     style="fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 13.22165,12.555189 v 0.780999 l 1.248054,0.629946 V 13.1912 Z"
+     id="path11004" />
+  <path
+     style="fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 13.22165,14.400581 v 0.780999 l 1.248054,0.629946 v -0.774934 z"
+     id="path111079" />
+  <path
+     style="fill:#151515;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 15.175707,14.834959 0.526657,0.714117 v 1.110063 l 0.548009,-0.311101 V 15.351103 L 15.645428,14.53093 Z"
+     id="path114059" />
+  <path
+     style="fill:#0304aa;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 17.229888,8.6394036 15.849191,8.4343594 12.874287,9.8343137 13.913368,10.329245 Z"
+     id="path7937" />
+  <path
+     style="fill:#151515;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 17.550152,8.7383902 -0.832688,0.5373552 3.798033,1.9678076 -0.05094,-1.073393 z"
+     id="path7939" />
+  <path
+     style="fill:#151515;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 15.89901,11.707986 -0.789987,0.516144 -2.96067,-1.513081 0.49819,-0.692904 z"
+     id="path7941" />
+  <path
+     style="fill:#151515;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 16.966559,12.528159 2.697341,-1.350457 -0.882508,-0.59392 -2.737958,1.379096 z"
+     id="path7943" />
+  <path
+     style="fill:#151515;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 16.427082,9.4878606 V 11.517084 L 18.351567,10.51143 Z"
+     id="path8027" />
+  <path
+     style="fill:#0304aa;fill-opacity:1;stroke:none;stroke-width:0.0525776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 16.150935,9.4878606 V 11.517084 L 14.226449,10.51143 Z"
+     id="path114567" />
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="266.46613"
+     y="176.37067"
+     id="text15"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan15"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="266.46613"
+       y="176.37067">Escala :</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="266.46613"
+     y="167.13441"
+     id="text16"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan16"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="266.46613"
+       y="167.13441">Material :</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="266.46613"
+     y="185.46773"
+     id="text17"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan17"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="266.46613"
+       y="185.46773">Hoja :</tspan></text>
+  <path
+     id="path17"
+     d="m 263.28316,184.21693 h 23.66872"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.156047" />
+  <text
+     xml:space="preserve"
+     style="font-size:2.96439px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0289027"
+     x="146.33141"
+     y="158.10754"
+     id="text18"
+     transform="scale(0.98967962,1.010428)"><tspan
+       id="tspan18"
+       style="font-size:2.96439px;fill:#1a1a1a;stroke-width:0.0289027"
+       x="146.33141"
+       y="158.10754">Maquina de Uso :</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="220.22578"
+     y="158.43927"
+     id="text19"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan19"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="220.22578"
+       y="158.43927">Numero De Dibujo :</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.96439px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0289027"
+     x="276.88641"
+     y="158.1555"
+     id="text20"
+     transform="scale(0.98967962,1.010428)"><tspan
+       id="tspan20"
+       style="font-size:2.96439px;fill:#1a1a1a;stroke-width:0.0289027"
+       x="276.88641"
+       y="158.1555">Unidad</tspan></text>
+  <text
+     id="text21"
+     x="277.71658"
+     y="163.62338"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:editable="mm"><tspan
+       id="tspan21"
+       x="277.71658"
+       y="163.62338"
+       font-size="3.9511px"
+       style="line-height:1.25">mm</tspan></text>
+  <path
+     id="path23"
+     d="m 274.51358,165.78254 v -9.12207"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.154644" />
+  <path
+     id="path25"
+     d="M 148.60378,0.8049537 V 7.9986975"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.303576" />
+  <path
+     id="path27"
+     d="M 56.1671,0.5233767 V 8.0233275"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path29"
+     d="M 102.3351,0.5233767 V 8.0233275"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path30"
+     d="M 240.8351,0.328947 V 7.5456608"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path31"
+     d="M 194.63221,0 V 7.5456608"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.35" />
+  <path
+     id="path32"
+     d="m 274.67805,165.77151 v -9.18282"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.155158" />
+  <path
+     id="path33"
+     d="m 144.35101,170.36451 h 119.1029"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.350049" />
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="145.98886"
+     y="167.2628"
+     id="text33"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan33"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="145.98886"
+       y="167.2628">Vo.Bo :</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:2.66394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke:#000000;stroke-width:0.0259734"
+     x="145.98886"
+     y="171.98154"
+     id="text35"
+     transform="scale(0.99080376,1.0092816)"><tspan
+       id="tspan35"
+       style="font-size:2.66394px;fill:#1a1a1a;stroke-width:0.0259734"
+       x="145.98886"
+       y="171.98154">Vo.Bo :</tspan></text>
+  <text
+     id="text34"
+     x="156.04523"
+     y="169.20299"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:autofill="date"
+     freecad:editable="FC-Date"><tspan
+       id="tspan34"
+       x="156.04523"
+       y="169.20299"
+       font-size="3.95px"
+       style="line-height:1.25">Fecha</tspan></text>
+  <path
+     id="path34"
+     d="m 263.28316,184.09613 h 23.66872"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.156047" />
+  <path
+     id="path35"
+     d="m 263.28316,184.3578 h 23.66872"
+     fill="none"
+     stroke="#000000"
+     stroke-width="0.156047" />
+  <text
+     id="text36"
+     x="156.04523"
+     y="173.96542"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:autofill="date"
+     freecad:editable="FC-Date"><tspan
+       id="tspan36"
+       x="156.04523"
+       y="173.96542"
+       font-size="3.95px"
+       style="line-height:1.25">Fecha</tspan></text>
+  <text
+     id="text21-2"
+     x="279.4245"
+     y="154.90802"
+     style="line-height:0%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     freecad:editable="1.0"><tspan
+       id="tspan21-2"
+       x="279.4245"
+       y="154.90802"
+       font-size="3.9511px"
+       style="line-height:1.25">1.0</tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 217.5,150.32895 v 15.32894"
+     id="path1" />
+</svg>
