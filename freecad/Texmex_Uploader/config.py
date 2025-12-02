@@ -98,32 +98,38 @@ class CopyTemplatesCmd:
                 os.makedirs(techdraw_template_dir)
 
             copied = 0
+            failed = False
 
             for file in os.listdir(src_folder):
                 if file.lower().endswith(".svg"):
                     src = os.path.join(src_folder, file)
                     dest = os.path.join(techdraw_template_dir, file)
 
-                    # usar QFile para permisos bloqueados en Program Files
-                    QtCore.QFile.copy(src, dest)
-                    copied += 1
+                    if QtCore.QFile.copy(src, dest):
+                        copied += 1
+                    else:
+                        failed = True
 
-            FreeCAD.Console.PrintMessage(
-                f"\n✔ Se copiaron {copied} plantillas a:\n{techdraw_template_dir}\n"
-            )
+            # Mensaje exitoso
+            if copied > 0 and not failed:
+                QtWidgets.QMessageBox.information(
+                    None,
+                    "Plantillas Instaladas",
+                    f"Se copiaron {copied} plantillas Texmex a:\n{techdraw_template_dir}"
+                )
+                return
 
-            QtWidgets.QMessageBox.information(
-                None,
-                "Plantillas Instaladas",
-                f"Se copiaron {copied} plantillas Texmex a:\n{techdraw_template_dir}"
-            )
+            # Si falla por permisos
+            if failed:
+                QtWidgets.QMessageBox.warning(
+                    None,
+                    "Permiso Denegado",
+                    f"No se pudieron copiar algunas plantillas.\n"
+                    f"Windows bloqueó el acceso a:\n{techdraw_template_dir}\n\n"
+                    "Ejecuta FreeCAD como Administrador o copia las plantillas manualmente."
+                )
+                return
 
         except Exception as e:
-            FreeCAD.Console.PrintError(f"\n❌ Error copiando plantillas: {e}\n")
-            QtWidgets.QMessageBox.critical(
-                None, "Error", f"No se pudieron copiar las plantillas:\n{e}"
-            )
-
-    def IsActive(self):
-        return True
+            FreeCAD.Console.PrintError(f"\nError copiando plantillas: {e}\n")
 
