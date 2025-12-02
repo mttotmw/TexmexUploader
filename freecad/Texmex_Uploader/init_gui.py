@@ -99,7 +99,7 @@ class TexmexUploaderWorkbench(FreeCADGui.Workbench):
 
             self.appendMenu(
                 ["Texmex Weavers", "Configuración"],
-                ["ConfigMinIO", CopyTemplates]
+                ["ConfigMinIO", "CopyTemplates"]
             )
 
             FreeCAD.Console.PrintMessage(" Texmex Weavers CAD loaded.\n")
